@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body{
+	background:#666;
+}
+	
+.container{
+	width:1000px; 
+	margin:auto; 
+	background:#FFF;
+}
+	
+.content_wrapper{
+	width:1000px;
+	background:#FFF; 
+	margin:auto; 
+}
+
+.head {
+	width:1000px; 
+	height:100px; 
+	background:#FFF; 
+}
+
+
+#logo {float:left;}
+
+.navbar {
+	width:1000px; 
+	height:50px; 
+	background:#000;	
+	clear:both;
+}
+	
+#menu {
+	line-height:50px; 
+	float:left;
+	}
+	
+#menu li {
+	list-style-type:none; 
+	display:inline;	
+}
+
+#menu a {
+	text-decoration:none;
+	font-size:16px; 
+	font-family:"Comic Sans MS", cursive; 
+	color:#FFF; 
+	margin:5px; 
+	padding:6px;
+}
+	
+#menu a:hover {
+	color:#F63; 
+	text-decoration:underline;
+}
+	
+.post_area {
+	width:740px;
+	background:#FFF; 
+	float:left;		
+}
+
+.post_area img {
+	padding-top:10px; 
+	padding-left:10px; 
+	padding-right:10px; 
+	float:left;	
+}
+			
+.post_area p {margin-bottom:10px; text-align:justify;}
+
+.post_area h2 {padding-bottom:10px;}
+			
+.sidebar {
+	width:249px;
+	background:#F99;
+	float:right;
+	border-left:1px solid #666;
+}
+	
+.recent_posts {text-align:center;}
+
+.recent_posts a {text-decoration:none; color:#000; font-size:18px;}
+
+.recent_posts a:hover {color:#F36;}
+	
+#stitle {
+	background:#000;
+	color:#FFF; 
+	padding:5px;
+	font-size:24px;
+	border-top:1px solid #666;
+	text-align:center;
+}
+		
+#social {
+	margin:4px; 
+	padding:5px; 
+	text-align:center;
+}
+
+#social img {width:50px; border:2px solid #333;}
+	
+.footer_area{
+		width:1000px; 
+		height:100px; 
+		background:#000; 
+		color:#FFF; 
+		clear:both;	
+}
+		
+#form {float:right; line-height:50px; padding-right:3px;}
+
+#rmlink {
+	float:right; 
+	background:#000; 
+	color:#FFF; 
+	padding:8px;
+	text-decoration:none;
+	margin-top:5px; 
+}
+
+#ltitle  {text-decoration:none; font-size:24px; color:#000; font-family:"Comic Sans MS", cursive;}
+
+#related {background: silver; width:160px; padding:5px; float:left; }
+		
+		
